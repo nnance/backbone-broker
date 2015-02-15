@@ -1,0 +1,28 @@
+{
+  "name": "backbone.broker",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nnance/backbone-broker`",
+  "authors": [
+    "Nick Nance <nance.nick@gmail.com>"
+  ],
+  "description": "A Backbone pub/sub event aggregator based on channels",
+  "main": "backbone.composer.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "Backbone"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.7.0",
+    "backbone": "~1.1.2"
+  }
+}
