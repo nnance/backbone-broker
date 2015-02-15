@@ -6,9 +6,6 @@ Current Version: 0.1.0
 [![Build Status](https://secure.travis-ci.org/nnance/backbone-broker.png?branch=master)](http://travis-ci.org/nnance/backbone-broker)
 [![Dependency Status](https://gemnasium.com/nnance/backbone-broker.svg)](https://gemnasium.com/nnance/backbone-broker)
 
-
-# Broker
-
 A Backbone pub/sub event aggregator based on channels.  Which includes:
 * Use channels to Publish & Subscribe to messages
 * Application wide singleton
