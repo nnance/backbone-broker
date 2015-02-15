@@ -1,6 +1,6 @@
 {
   "name": "backbone.broker",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "A Backbone pub/sub event aggregator based on channels",
   "main": "backbone.broker.js",
   "scripts": {
