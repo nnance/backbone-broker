@@ -1,8 +1,7 @@
 backbone-broker
 ====================
 
-Current Version: 0.1.0
-
+[![npm version](https://badge.fury.io/js/backbone.broker.svg)](http://badge.fury.io/js/backbone.broker)
 [![Build Status](https://secure.travis-ci.org/nnance/backbone-broker.png?branch=master)](http://travis-ci.org/nnance/backbone-broker)
 [![Dependency Status](https://gemnasium.com/nnance/backbone-broker.svg)](https://gemnasium.com/nnance/backbone-broker)
 

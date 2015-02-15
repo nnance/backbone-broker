@@ -1,5 +1,5 @@
 /*!
- * backbone.broker.js v0.1.0
+ * backbone.broker.js
  * Copyright 2014, Nick Nance (@nancenick)
  * backbone.broker.js may be freely distributed under the MIT license.
  */
