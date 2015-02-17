@@ -18,6 +18,7 @@
     "slice": true,
     "require": true,
     "define": true,
-    "module": true
+    "module": true,
+    "exports": true
   }
 }

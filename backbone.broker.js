@@ -17,7 +17,10 @@
 
   // Finally, as a browser global.
   else {
-    Backbone.broker = factory(_, Backbone, {});
+    if (!Backbone.broker) {
+      Backbone.broker = {};
+      factory(_, Backbone, Backbone.broker);
+    }
   }
 
 }(function (_, Backbone, Broker) {
