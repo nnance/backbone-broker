@@ -1,26 +1,26 @@
 /*!
- * backbone.broker.js
- * Copyright 2014, Nick Nance (@nancenick)
- * backbone.broker.js may be freely distributed under the MIT license.
- */
- (function (factory) {
+* backbone.broker.js
+* Copyright 2014, Nick Nance (@nancenick) and ConnectSolutions (@ConnectSolutns)
+* backbone.broker.js may be freely distributed under the MIT license.
+*/
+(function (factory) {
 
   // Check for AMD.
   if (typeof define === 'function' && define.amd) {
-    define(['underscore', 'backbone'], factory);
+    define(['underscore', 'backbone', 'exports'], factory);
   }
 
   // Next for Node.js or CommonJS.
   else if (typeof exports === 'object') {
-    factory(require('underscore'), require('backbone'));
+    factory(require('underscore'), require('backbone'), exports);
   }
 
   // Finally, as a browser global.
   else {
-    Backbone.broker = factory(_, Backbone);
+    Backbone.broker = factory(_, Backbone, {});
   }
 
-}(function (_, Backbone) {
+}(function (_, Backbone, Broker) {
 
   var started = false;
   var channels = [];
@@ -56,7 +56,7 @@
 
   });
 
-  return {
+  _.extend(Broker, {
     channel: function(name) {
       if (name && name.length > 0) {
         var results = channels.filter(function(channel){
@@ -88,6 +88,6 @@
     stop: function() {
       started = false;
     }
-  };
+  });
 
 }));
