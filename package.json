@@ -1,6 +1,6 @@
 {
   "name": "backbone.broker",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Backbone pub/sub event aggregator based on channels",
   "main": "backbone.broker.js",
   "scripts": {
@@ -20,16 +20,16 @@
   },
   "homepage": "https://github.com/nnance/backbone-broker",
   "dependencies": {
-    "backbone": ">=0.9.9 <=1.1.2",
-    "underscore": ">=1.4.0 <=1.7.0"
+    "backbone": ">=0.9.9 <=1.2.1",
+    "underscore": ">=1.4.0 <=1.8.3"
   },
   "devDependencies": {
-    "chai": "^2.0.0",
+    "chai": "^3.0.0",
     "chai-backbone": "^0.9.2",
     "chai-jquery": "^2.0.0",
     "grunt": "~0.4.4",
-    "grunt-contrib-jshint": "~0.1.1",
-    "grunt-contrib-watch": "~0.2.0",
+    "grunt-contrib-jshint": "~0.11.1",
+    "grunt-contrib-watch": "~0.6.1",
     "grunt-mocha-phantomjs": "^0.6.0",
     "mocha": "^2.1.0",
     "sinon": "^1.10.3",
